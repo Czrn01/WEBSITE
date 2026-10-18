@@ -86,8 +86,6 @@ footer p{color:var(--muted);font-size:18px}
 .tags{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px}
 .tags .tag{padding:10px 33px}
 .tags .kcal{background:#eeeeee;color:#444}
-.add{font:inherit;font-size:20px;background:var(--bg);color:#fff;border:0;border-radius:3px;padding:14px 32px;cursor:pointer;transition:.2s}
-.add:hover{background:var(--red)}
 .mgrid .row{align-items:flex-end}
 .empty{text-align:center;font-size:22px;color:#777;padding:40px 0}
 .cta .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:100px;padding-bottom:100px;gap:24px;flex-wrap:wrap}
@@ -238,7 +236,6 @@ function route(){
  else{const el=document.querySelector(h);if(el)el.scrollIntoView()}
 }
 addEventListener('hashchange',route);route();
-
 </script>
 </body>
 </html>
